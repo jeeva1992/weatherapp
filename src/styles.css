@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* For entire body*/
+* {
+  font-family: "Open Sans", sans-serif;
+}
+/* For Title*/
+.navbar {
+  background-color: #2a2a2a !important;
+}
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+}
+/* For Subtitle*/
+#Subtitle {
+  margin-left: 15px;
+  font-size: 28px;
+  font-weight: bold;
+}
+/* For Dropdown  */
+.input-group {
+  font-size: 28px;
+  font-weight: normal;
+}
+/* For Date */
+#date {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* For Temperature */
+#temp {
+  font-size: 18px;
+  font-weight: normal;
+}
+/* For Results*/
+td {
+  border-top: hidden;
+}
+ul {
+  margin-left: 25px;
+  width: 500px;
+  white-space: nowrap;
+  height: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
